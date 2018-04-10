@@ -1,0 +1,84 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "thermostat",
+      "intents": [
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "SpanishTest",
+          "samples": [
+            "spanish test",
+            "prueba en español"
+          ]
+        },
+        {
+          "name": "TurnOn",
+          "samples": [
+            "turn on",
+            "turn thermostat on"
+          ]
+        },
+        {
+          "name": "TurnOff",
+          "samples": [
+            "turn off",
+            "turn thermostat off"
+          ]
+        },
+        {
+          "name": "GetRoomTemp",
+          "samples": [
+            "what is the temperature"
+          ]
+        },
+        {
+          "name": "SetThermostat",
+          "slots": [
+            {
+              "name": "temp",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "set temperature to {temp} degrees",
+            "set the temperature to {temp} degrees",
+            "set to {temp} degrees"
+          ]
+        },
+        {
+          "name": "GetThermostatSeting",
+          "samples": [
+            "what are the settings"
+          ]
+        },
+        {
+          "name": "SelfDiag",
+          "samples": [
+            "run a diagnostic test",
+            "run a self diagnostic",
+            "full diagnostic"
+          ]
+        },
+        {
+          "name": "GetUpTime",
+          "samples": [
+            "what is the uptime",
+            "how long has the thermostat been running",
+            "uptime"
+          ]
+        }
+      ]
+    }
+  }
+}
